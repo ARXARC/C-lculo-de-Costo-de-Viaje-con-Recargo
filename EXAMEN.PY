@@ -1,7 +1,3 @@
-HorasPico=[7,
-           9,
-           17,
-           19]
 distancia= float(input("Distancia recorrida en KM:  "))
 TiempoViaje=float(input("Tiempode viaje en  min:  "))
 HoraVaije=float(input("Hora de viaje (Solo hora 24h) "))
@@ -19,6 +15,6 @@ else:
         recargo=1.2
     else:
         print("No hay recargo")
-        recargo=11
+        recargo=1
     TarifaTotalRecargo=(TarifaBase+TarifaKM+TarifaMin)*recargo
     print(f"El coste total es: {TarifaTotalRecargo}")
